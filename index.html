@@ -24,7 +24,7 @@
 				data-target="#collapsibleNavbar">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-
+			<!-- for more communication icons: https://fontawesome.com/v4.7.0/icons/ -->
 			<div class="collapse navbar-collapse" id="collapsibleNavbar">
 				<ul class="navbar-nav mr-auto">
 					<!-- resume -->
@@ -64,17 +64,24 @@
 	</div>
 
 	<!-- project cards -->
+	<!-- For below options: 1) Create new rep on GitHubDesktop 2) Create project, 3) GitHubpages and host the index.HTML file-->
+	<!-- Java, C+, Python: 1) GIF (from ScreentoGif.com) record ~3fps, export to PortfolioProject folder; 2) "Code" button to code rep on GitHub, 3) "Download" button for executable file, 4) "Video" button of you demonstrating app on YouTube -->
+	<!-- Games created in game engine like Unity: 1) GIF (from ScreentoGif.com) record ~3fps, export to PortfolioProject folder; 2) "Code" button to code rep on GitHub, 3) "Play" button to play hosted version of game (Use Unity's WebGL Publisher)-->
+	<!-- Websites ie React, Angular, HTML: 1) GIF (from ScreentoGif.com) record ~3fps, export to PortfolioProject folder; 2) "Code" button to code rep on GitHub, 3) "Hosted" button to hosted site -->
+	<!-- Moving Art: 1) GIF (from ScreentoGif.com) record ~30-140 fps, export to PortfolioProject folder; -->
+	<!-- If all only still Art: 1) remove links for peoject; 2) open styles.css rename .gif to .img under Card Section; 3) display from "None" to "block"; 4) delete entire @media section below .img-->
 	<div class="container row mx-auto">
 		<div class="card mx-auto mt-4">
 			<a href="@@@projectGitHubUrl@@@" target="_blank">
 				<img class="card-img-top gif-portion" id="gif1" src="eclipseDemo.gif">
 			</a>
+			<!-- image for shrunken screen, too small to show GIF -->
 			<a href="@@@projectGitHubUrl@@@" target="_blank">
 				<img class="card-img-top img-portion" id="img1" src="royaltyFreeEarth.png">
 			</a>
 			<div class="card-body">
 				<h4 class="card-title">@@@ProjectTitle@@@</h4>
-				<p class="card-text">@@@One or two sentences of learning outcomes@@@</p>
+				<p class="card-text">@@@One or two sentences of learning outcomes. One obstacle.@@@</p>
 				<a href="@@@gitHubCodeRepoUrl@@@" class="btn btn-primary" target="_blank">CODE</a>
 				<a href="@@@projectGitHubUrl@@@" class="btn btn-primary" target="_blank">HOSTED</a>
 			</div>
@@ -88,7 +95,7 @@
 			</a>
 			<div class="card-body">
 				<h4 class="card-title">@@@ProjectTitle@@@</h4>
-				<p class="card-text">@@@One or two sentences of learning outcomes@@@</p>
+				<p class="card-text">@@@One or two sentences of learning outcomes. One obstacle.@@@</p>
 				<a href="@@@gitHubCodeRepoUrl@@@" class="btn btn-primary" target="_blank">CODE</a>
 				<a href="@@@projectGitHubUrl@@@" class="btn btn-primary" target="_blank">HOSTED</a>
 			</div>
@@ -102,7 +109,7 @@
 			</a>
 			<div class="card-body">
 				<h4 class="card-title">@@@ProjectTitle@@@</h4>
-				<p class="card-text">@@@One or two sentences of learning outcomes@@@</p>
+				<p class="card-text">@@@One or two sentences of learning outcomes. One obstacle.@@@</p>
 				<a href="@@@gitHubCodeRepoUrl@@@" class="btn btn-primary" target="_blank">CODE</a>
 				<a href="@@@projectGitHubUrl@@@" class="btn btn-primary" target="_blank">HOSTED</a>
 			</div>
@@ -116,7 +123,7 @@
 			</a>
 			<div class="card-body">
 				<h4 class="card-title">@@@ProjectTitle@@@</h4>
-				<p class="card-text">@@@One or two sentences of learning outcomes@@@</p>
+				<p class="card-text">@@@One or two sentences of learning outcomes. One obstacle.@@@</p>
 				<a href="@@@gitHubCodeRepoUrl@@@" class="btn btn-primary" target="_blank">CODE</a>
 				<a href="@@@projectGitHubUrl@@@" class="btn btn-primary" target="_blank">HOSTED</a>
 			</div>
@@ -153,6 +160,35 @@
 			</div>
 		</span>
 	</div>
+
+	<!-- YouTube tutorial section-->
+	<!--<div class="container">
+		<h2 class="section-title">My YouTube Tutorial Channel</h2>
+		<div class="row">
+			<div class="card col-lg-5 mx-auto">
+				<iframe class="card-img-top" width="560" height="315" src="@@@videoLink@@@" frameborder="0"
+					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+				<div class="card-body">
+					<h4 class="card-title">@@@VideoTitle@@@</h4>
+					<p class="card-text">@@@One or two sentences of learning outcomes@@@</p>
+					<a href="@@@channelLink@@@" class="btn btn-primary" target="_blank">CHANNEL</a>
+					<a href="@@@videoLink@@@" class="btn btn-primary" target="_blank">VIDEO</a>
+				</div>
+			</div>
+			<div class="card col-lg-5 mx-auto">
+				<iframe class="card-img-top" width="560" height="315" src="@@@videoLink@@@" frameborder="0"
+					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+				<div class="card-body">
+					<h4 class="card-title">@@@VideoTitle@@@</h4>
+					<p class="card-text">@@@One or two sentences of learning outcomes@@@</p>
+					<a href="@@@channelLink@@@" class="btn btn-primary" target="_blank">CHANNEL</a>
+					<a href="@@@videoLink@@@" class="btn btn-primary" target="_blank">VIDEO</a>
+				</div>
+			</div>
+		</div>
+	</div>-->
 
 	<div class="container" id="white-space-div"></div>
 
